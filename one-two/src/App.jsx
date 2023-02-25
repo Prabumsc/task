@@ -29,7 +29,7 @@ function App() {
           <a href="#home">Home</a>
           <a href="#news">About</a>
           <div className="dropdown">
-            <button className="dropbtn" onClick={() => setShow(!show)}>Shop
+            <button className="dropbtn" onClick={() => setShow(!show)} aria-label="toggle " >Shop
 
               {show ? <ArrowDropDownIcon style={{ height: "10px" }} /> : <ArrowDropDownIcon style={{ height: "10px" }} />}
 
